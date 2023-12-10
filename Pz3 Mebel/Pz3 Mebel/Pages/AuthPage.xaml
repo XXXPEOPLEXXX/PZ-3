@@ -1,0 +1,32 @@
+﻿<Page x:Class="Pz3_Mebel.Pages.AuthPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:local="clr-namespace:Pz3_Mebel.Pages"
+      mc:Ignorable="d"
+      d:DesignHeight="450"
+      d:DesignWidth="800"
+      Title="AuthPage">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="16*" />
+            <RowDefinition Height="46*" />
+            <RowDefinition Height="13*" />
+        </Grid.RowDefinitions>
+        <StackPanel HorizontalAlignment="Center">
+            <TextBlock Text="Авторизация" FontSize="40" />
+        </StackPanel>
+        <StackPanel Grid.Row="1">
+            <TextBlock Text="Логин" FontSize="20"/>
+            <TextBox x:Name="TBLogin" Text="{Binding Login}"/>
+            <TextBlock Text="Логин" FontSize="20" />
+            <TextBox x:Name="TBPassword" Text="{Binding Password}" />
+        </StackPanel>
+        <StackPanel Grid.Row="2">
+            <Button x:Name="BtnAuth" Content="Авторизоваться" Click="BtnAuth_Click" />
+            <Button x:Name="BtnRegister" Content="Регистрация" Click="BtnRegister_Click" />
+        </StackPanel>
+    </Grid>
+</Page>

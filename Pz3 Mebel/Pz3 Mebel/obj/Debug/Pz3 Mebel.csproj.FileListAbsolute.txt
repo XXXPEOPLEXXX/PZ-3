@@ -1,0 +1,30 @@
+C:\Users\XXXPEOPLEXXX\Desktop\Коля\Дэмо экзамен\Askar\Pz3 Mebel\Pz3 Mebel\bin\Debug\Pz3 Mebel.exe.config
+C:\Users\XXXPEOPLEXXX\Desktop\Коля\Дэмо экзамен\Askar\Pz3 Mebel\Pz3 Mebel\bin\Debug\Pz3 Mebel.exe
+C:\Users\XXXPEOPLEXXX\Desktop\Коля\Дэмо экзамен\Askar\Pz3 Mebel\Pz3 Mebel\bin\Debug\Pz3 Mebel.pdb
+C:\Users\XXXPEOPLEXXX\Desktop\Коля\Дэмо экзамен\Askar\Pz3 Mebel\Pz3 Mebel\bin\Debug\EntityFramework.dll
+C:\Users\XXXPEOPLEXXX\Desktop\Коля\Дэмо экзамен\Askar\Pz3 Mebel\Pz3 Mebel\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\XXXPEOPLEXXX\Desktop\Коля\Дэмо экзамен\Askar\Pz3 Mebel\Pz3 Mebel\bin\Debug\EntityFramework.xml
+C:\Users\XXXPEOPLEXXX\Desktop\Коля\Дэмо экзамен\Askar\Pz3 Mebel\Pz3 Mebel\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\XXXPEOPLEXXX\Desktop\Коля\Дэмо экзамен\Askar\Pz3 Mebel\Pz3 Mebel\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\XXXPEOPLEXXX\Desktop\Коля\Дэмо экзамен\Askar\Pz3 Mebel\Pz3 Mebel\obj\Debug\Pz3 Mebel.csproj.AssemblyReference.cache
+C:\Users\XXXPEOPLEXXX\Desktop\Коля\Дэмо экзамен\Askar\Pz3 Mebel\Pz3 Mebel\obj\Debug\MainWindow.g.cs
+C:\Users\XXXPEOPLEXXX\Desktop\Коля\Дэмо экзамен\Askar\Pz3 Mebel\Pz3 Mebel\obj\Debug\Pages\AuthPage.g.cs
+C:\Users\XXXPEOPLEXXX\Desktop\Коля\Дэмо экзамен\Askar\Pz3 Mebel\Pz3 Mebel\obj\Debug\Pages\RegistrationPage.g.cs
+C:\Users\XXXPEOPLEXXX\Desktop\Коля\Дэмо экзамен\Askar\Pz3 Mebel\Pz3 Mebel\obj\Debug\App.g.cs
+C:\Users\XXXPEOPLEXXX\Desktop\Коля\Дэмо экзамен\Askar\Pz3 Mebel\Pz3 Mebel\obj\Debug\Pz3 Mebel_Content.g.cs
+C:\Users\XXXPEOPLEXXX\Desktop\Коля\Дэмо экзамен\Askar\Pz3 Mebel\Pz3 Mebel\obj\Debug\Pz3 Mebel_MarkupCompile.cache
+C:\Users\XXXPEOPLEXXX\Desktop\Коля\Дэмо экзамен\Askar\Pz3 Mebel\Pz3 Mebel\obj\Debug\Pz3 Mebel_MarkupCompile.lref
+C:\Users\XXXPEOPLEXXX\Desktop\Коля\Дэмо экзамен\Askar\Pz3 Mebel\Pz3 Mebel\obj\Debug\MainWindow.baml
+C:\Users\XXXPEOPLEXXX\Desktop\Коля\Дэмо экзамен\Askar\Pz3 Mebel\Pz3 Mebel\obj\Debug\Pages\AuthPage.baml
+C:\Users\XXXPEOPLEXXX\Desktop\Коля\Дэмо экзамен\Askar\Pz3 Mebel\Pz3 Mebel\obj\Debug\Pages\RegistrationPage.baml
+C:\Users\XXXPEOPLEXXX\Desktop\Коля\Дэмо экзамен\Askar\Pz3 Mebel\Pz3 Mebel\obj\Debug\Pz3 Mebel.g.resources
+C:\Users\XXXPEOPLEXXX\Desktop\Коля\Дэмо экзамен\Askar\Pz3 Mebel\Pz3 Mebel\obj\Debug\Pz3_Mebel.Properties.Resources.resources
+C:\Users\XXXPEOPLEXXX\Desktop\Коля\Дэмо экзамен\Askar\Pz3 Mebel\Pz3 Mebel\obj\Debug\Pz3 Mebel.csproj.GenerateResource.cache
+C:\Users\XXXPEOPLEXXX\Desktop\Коля\Дэмо экзамен\Askar\Pz3 Mebel\Pz3 Mebel\obj\Debug\Pz3 Mebel.csproj.CoreCompileInputs.cache
+C:\Users\XXXPEOPLEXXX\Desktop\Коля\Дэмо экзамен\Askar\Pz3 Mebel\Pz3 Mebel\obj\Debug\Pz3 Mebel.csproj.CopyComplete
+C:\Users\XXXPEOPLEXXX\Desktop\Коля\Дэмо экзамен\Askar\Pz3 Mebel\Pz3 Mebel\obj\Debug\Pz3 Mebel.exe
+C:\Users\XXXPEOPLEXXX\Desktop\Коля\Дэмо экзамен\Askar\Pz3 Mebel\Pz3 Mebel\obj\Debug\Pz3 Mebel.pdb
+C:\Users\XXXPEOPLEXXX\Desktop\Коля\Дэмо экзамен\Askar\Pz3 Mebel\Pz3 Mebel\obj\Debug\Pages\MebelPage.g.cs
+C:\Users\XXXPEOPLEXXX\Desktop\Коля\Дэмо экзамен\Askar\Pz3 Mebel\Pz3 Mebel\obj\Debug\Pages\MebelPage.baml
+C:\Users\XXXPEOPLEXXX\Desktop\Коля\Дэмо экзамен\Askar\Pz3 Mebel\Pz3 Mebel\obj\Debug\Pages\AddMebelPage.g.cs
+C:\Users\XXXPEOPLEXXX\Desktop\Коля\Дэмо экзамен\Askar\Pz3 Mebel\Pz3 Mebel\obj\Debug\Pages\AddMebelPage.baml

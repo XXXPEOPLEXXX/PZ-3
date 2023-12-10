@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Хранилище FabrickMebelModel" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Mebel">
+    <Key>
+      <PropertyRef Name="IdMebel" />
+    </Key>
+    <Property Name="IdMebel" Type="int" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Material" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="IdTipeMebely" Type="int" Nullable="false" />
+    <Property Name="Style" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Kolichestvo" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="TipeMebel">
+    <Key>
+      <PropertyRef Name="IdTipeMebel" />
+    </Key>
+    <Property Name="IdTipeMebel" Type="int" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="IdUser" />
+    </Key>
+    <Property Name="IdUser" Type="int" Nullable="false" />
+    <Property Name="Login" Type="nvarchar" MaxLength="50" />
+    <Property Name="Password" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <Association Name="FK_Mebel_TipeMebel">
+    <End Role="TipeMebel" Type="Self.TipeMebel" Multiplicity="1" />
+    <End Role="Mebel" Type="Self.Mebel" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TipeMebel">
+        <PropertyRef Name="IdTipeMebel" />
+      </Principal>
+      <Dependent Role="Mebel">
+        <PropertyRef Name="IdTipeMebely" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Хранилище FabrickMebelModelContainer">
+    <EntitySet Name="Mebel" EntityType="Self.Mebel" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TipeMebel" EntityType="Self.TipeMebel" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="User" EntityType="Self.User" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Mebel_TipeMebel" Association="Self.FK_Mebel_TipeMebel">
+      <End Role="TipeMebel" EntitySet="TipeMebel" />
+      <End Role="Mebel" EntitySet="Mebel" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
